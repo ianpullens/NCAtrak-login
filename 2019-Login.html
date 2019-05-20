@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
+
+<title>Untitled Document</title>
+<style type="text/css">
+body,td,th {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+	
+	HTML, body {height: 100%;}
+	
+body {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+	
+	padding: 20px 10px;
+	padding-top: 5%;
+	background: url("BG.jpg") no-repeat center top;
+	background-size: cover;
+	color: gray;
+		
+}
+	a {color: #006CA4;}
+	hr {color: gray; margin: 30px 0px 50px;}
+	
+.login-holder{
+	margin: auto; 
+	background-color: white; 
+	min-height: 500px;
+	border-radius: 15px;
+	min-width: 250px;
+	max-width: 400px;
+	padding:30px 20px;
+}
+	
+	
+@media (max-width: 400px) {
+	body { }
+}
+	
+	.trak-logo{ width: 250px; margin: auto; display: block;}
+	
+	.nca-logo{ width: 100px; float: right; margin-top: -40px; margin-left: 10px;}
+	
+	.nca-trak-form {width: 100%;}
+	
+	.nca-trak-form {padding-top: 20px; font-weight: bold; color: gray;}
+	.nca-trak-form label, .trak-button{text-transform: uppercase;}
+	
+	.nca-trak-form input.userpass, .trak-button{display: block; width:100%; padding:2%; font-size: 1.7em; border-radius: 5px; margin: 10px 0px 25px;}
+	
+	.nca-trak-form input.userpass{ border: 1px solid gray; width: 95.5% }
+	
+	.trak-button{margin-top: 40px; background-color:#006CA4; color: white; font-weight: bold; border: none;}
+	
+	.trak-button:hover{background-color: #55BDE4;}
+	
+</style>
+</head>
+
+<body>
+	<div class="login-holder">
+		
+		<img class="trak-logo" src="NCAtrak-logo.jpg" alt="NCA trak"/>
+		<form class="nca-trak-form">
+			<label>Username</label>
+			<input id="username" class="userpass" type="text">
+			<label>Password</label>
+			<input id="password" class="userpass" type="text">
+			<button class="trak-button">Login</button>
+			
+		</form>
+		
+		<a href="#">Forgot your password?</a>
+		
+		<hr/>
+		
+		<img class="nca-logo" src="NCA-logo.jpg" alt="NCA"/>
+		
+		<p>NCA Technology Reaching All Kids</p>
+
+		<p><a href="">National Children’s Alliance</a></p>
+		
+		<br style="clear: both;">
+	</div>
+	
+</body>
+</html>
